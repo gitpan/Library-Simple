@@ -1,0 +1,16 @@
+
+   Library::Simple
+ =====================
+
+  This module provides support for easy (simple) building of Digital
+Libraries. It uses any format of catalog with an ontology
+(preferencially Library::Thesaurus) to make concept oriented
+navigation possible.
+
+   Authors
+ ===========
+
+    José João Almeida   (jj@di.uminho.pt)
+    Alberto M. Simões   (albie@alfarrabio.di.uminho.pt)
+
+

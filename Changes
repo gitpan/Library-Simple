@@ -4,3 +4,11 @@ Revision history for Perl extension Library::Simple
 	- original version; created by h2xs 1.20 with options
 		-A -X -c -n Library::Simple
 
+0.02  Fir May 31 08:09:10 2002
+	- Corrected some bugs;
+	- Now, only 10 matches are shown each time;
+	- Search can be performed using a category delimiter (character '!');
+	- Constructed a log for unkown classification terms;
+	- Support for multi-catalogs of different types;
+	- Added indexes to map registers on multiple catalogs (catID.regID);
+

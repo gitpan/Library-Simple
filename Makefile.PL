@@ -4,5 +4,8 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Library::Simple',
     'VERSION_FROM'	=> 'Simple.pm', # finds $VERSION
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {
+		Library::Thesaurus => 0.12,
+		Library::MLang => 0.04,
+			    }, # e.g., Module::Name => 1.1
 );
